@@ -1,0 +1,12 @@
+{
+  "name": "goods-cx-intelligence",
+  "version": "1.0.0",
+  "private": true,
+  "description": "29CM 상품과 고객경험 분석 대시보드",
+  "scripts": {
+    "start": "python3 -m http.server 8000 --directory dist",
+    "data": "python3 prepare_data.py",
+    "check": "node --check dist/app.js",
+    "test": "node scripts/verify.mjs"
+  }
+}
